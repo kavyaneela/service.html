@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IT Service Request Form</title>
+        <style type="text/css">
+            .label{
+                width:100px;
+                display:inline-block;
+                marign:10px;
+            }
+
+            #form{
+                border-radius: 20px;
+                background-color:silver;
+                color:purple;
+            }
+
+            .category{
+                font-size: 12.5px;
+            }
+
+            .problem{
+                color:brown;
+            
+            }
+
+            .h1{
+                text-align: center;
+            }
+
+           .submit{
+            margin-top: 10px;
+            padding: 20px;
+            text-align: center;
+           }
+        </style>
+    </head>
+    <body>
+        <div id="form">
+            <table border="1" width="100%">
+                <tr>
+                    <td>
+                        <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
+                            <tr>
+                                <td align="center">
+                                    <h1>IT Service Request Form</h1>
+                                </td>    
+                            </tr>
+                        </table> <br><br>
+                        <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
+                            <tr>
+                                <td>
+                                    <form method="post">
+                                        <div class="textbox">
+                                            <label><strong>Full Name :</strong></label>
+                                            <input type="text" name="text1" style="width:20%">
+                                            <input type="text" name="text2" style="width:20%">
+                                        </div>
+
+                                        <br><br>
+
+                                        <div class="text">
+                                            <label><strong>Department :</strong></label>
+                                            <input type="text" name="text" style="width:30%">
+                                        </div>
+
+                                        <br><br>
+
+                                        <div class="text">
+                                            <label><strong>Building No :</strong></label>
+                                            <input type="text" name="text" style="width:30%">
+                                        </div>
+
+                                        <br><br>
+
+                                        <div class="text">
+                                            <label><strong>E-mail</strong></label>
+                                            <input type="email" name="text" style="width:30%" placeholder="eg.zzzzz@gmail.com">
+                                        </div>
+
+                                        <br><br>
+
+                                        <div class="category">
+                                            <h2><strong>Problem Category:</strong></h2>
+                                            <div class="problem">
+                                                <input type="checkbox" name="text">Computer<br>
+                                                <input type="checkbox" name="text">Network<br>
+                                                <input type="checkbox" name="text">E-mail<br>
+                                                <input type="checkbox" name="text">Phone<br>
+                                                <input type="checkbox" name="text">Other<br>
+                                            </div>
+                                        </div>  
+
+                                        <br><br>
+                            
+                                        <div class="txt1">
+                                            <label><strong>Please specify</strong></label>
+                                            <input type="text" name="textbox" style="height:70px; width:30%">
+                                        </div>
+
+                                        <br><br>
+
+                                        <div class="txt2">
+                                            <label><strong>Comment and Questions</strong></label>
+                                            <input type="text" name="textbox"style="height:70px; width:30%">
+                                        </div>
+
+                                       <br><br>
+
+                                        <div class="submit" >
+                                           <button type="submit" style="width:40%" placeholder="submit" name="submit">SUBMIT</button>
+                                        </div>
+                                    </form>
+                                </td>
+                            </tr>
+                        </table>  
+                    </td>
+                </tr>
+            </table>
+        </div>                          
+    </body>
+</html>
